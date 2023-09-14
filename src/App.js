@@ -127,7 +127,6 @@ export default function Game() {
     setCurrentMove(nextMove);
   }
 
-  git remote add origin https://github.com/Bliznetc/Tic-tac-toe.git
   function onChangeToggle() {
     setChecked((prevIsChecked) => {
       // Use the previous state value to calculate the new state
